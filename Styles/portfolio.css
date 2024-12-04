@@ -1,7 +1,12 @@
 :root {
   --branding-color: #6cb9c1;
+  --branding-color-transparent: rgba(108, 185, 193, 0.25);
   --secondary-color: #f7f7f7;
-  --accent-color: #e8d2a2;
+  --secondary-color-transparent: rgba(247, 247, 247, 0.4);
+  --accent-color-mint: #b5dce1;
+  --accent-color-mint-transparent: rgb(181, 220, 225, 0.4);
+  --accent-color-orange: #ecc868;
+  --accent-color-orange-transparent: rgba(236, 200, 104, 0.8);
   --default-font-family: "Klee One", cursive;
   --heading-font-family: "Handlee", serif;
 }
@@ -16,9 +21,8 @@ body {
   background-size: cover;
 }
 .hero p {
-  font-size: 40px;
-  text-align: center;
-  padding-top: 40px;
+  background-color: var(--secondary-color-transparent);
+  font-size: 35px;
   font-weight: 600;
 }
 h1,
@@ -28,32 +32,31 @@ h4 {
   font-family: var(--heading-font-family);
   font-weight: 600;
 }
-h1 {
-  font-size: 98px;
-  font-weight: 400;
-  text-align: center;
-  margin: 30px;
+.hero h1 {
+  background-color: var(--secondary-color-transparent);
+  font-size: 85px;
+  font-weight: 500;
+  margin: 30px 0;
 }
 .hero h3 {
+  background-color: var(--secondary-color-transparent);
   font-family: var(--default-font-family);
   font-size: 35px;
   font-weight: 900;
-  text-align: center;
 }
 .large-padding {
   padding: 100px;
 }
 .btn-branding {
-  background-color: rgba(232, 210, 162, 0.3);
-  border: 1.5px solid black;
-  font-size: 18px;
-  font-weight: 700;
+  background-color: var(--secondary-color-transparent);
+  border: 1.2px solid black;
+  font-family: var(--heading-font-family);
+  font-size: 17px;
+  font-weight: 600;
   padding: 10px 20px;
 }
 .btn-branding:hover {
-  background-color: rgba(108, 185, 193, 0.3);
-  border: 1.5px solid black;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 10px 20px;
+  background-color: var(--branding-color-transparent);
+  border: 1.2px solid var(--accent-color-orange-transparent);
+  color: var(--accent-color-orange-transparent);
 }
