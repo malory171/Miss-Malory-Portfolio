@@ -1,11 +1,59 @@
-/* font-family: "Handlee", serif;
-font-family: "Klee One", cursive;*/
-
-h1 {
-  font-family: "Handlee", serif;
-  font-weight: 500;
+:root {
+  --branding-color: #6cb9c1;
+  --secondary-color: #f7f7f7;
+  --accent-color: #e8d2a2;
+  --default-font-family: "Klee One", cursive;
+  --heading-font-family: "Handlee", serif;
 }
-
-h3 {
-  font-family: "Klee One", cursive;
+body {
+  font-family: var(--default-font-family);
+}
+.hero {
+  background-image: url(/images/coding-octopus-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.hero p {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+}
+h1 {
+  font-size: 98px;
+  font-weight: 400;
+  text-align: center;
+  margin: 30px;
+}
+.hero h3 {
+  font-family: var(--default-font-family);
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+}
+.large-padding {
+  padding: 100px;
+}
+.btn-branding {
+  background-color: rgba(232, 210, 162, 0.3);
+  border: 1.5px solid black;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+.btn-branding:hover {
+  background-color: rgba(108, 185, 193, 0.3);
+  border: 1.5px solid black;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 20px;
 }
