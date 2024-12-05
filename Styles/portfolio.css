@@ -24,9 +24,10 @@
   .hero h3 {
     font-size: 25px;
   }
-  .app-info {
+  .app-info,
+  .about-info {
     text-align: center;
-    margin: 0px 10px;
+
     padding: 0 2px;
   }
 }
@@ -44,12 +45,15 @@
   .hero h3 {
     font-size: 35px;
   }
-  .app-info {
-    margin: 20px;
-    padding: 0 20px;
+  .app-info,
+  .about-info {
+    padding: 0 40px;
   }
   .text-left {
     text-align: right;
+  }
+  .profile-img {
+    margin-left: 50px;
   }
 }
 body {
@@ -73,6 +77,10 @@ h4 {
   font-family: var(--heading-font-family);
   font-weight: 600;
 }
+
+h1 {
+  font-size: 35px;
+}
 .hero h1 {
   background-color: var(--secondary-color-transparent);
   font-weight: 500;
@@ -82,7 +90,7 @@ h4 {
   background-color: var(--secondary-color-transparent);
   font-family: var(--default-font-family);
 }
-.btn-branding {
+.btn-hero {
   background-color: var(--secondary-color-transparent);
   border: 1.2px solid black;
   font-family: var(--heading-font-family);
@@ -90,34 +98,32 @@ h4 {
   font-weight: 600;
   padding: 10px 20px;
 }
-.btn-branding:hover {
+.btn-hero:hover {
   background-color: var(--branding-color-transparent);
   border: 1.2px solid var(--accent-color-orange-transparent);
   color: var(--accent-color-orange-transparent);
 }
-.highlights {
-  font-size: 18px;
-  padding: 35px 25px 8px 25px;
-  text-align: center;
-}
-.app-image {
+.app-img {
   padding: 0px 30px;
 }
-.app-info h2 {
+.app-info h2,
+.about-info h1 {
   margin: 15px;
 }
-.app-info p {
+.app-info p,
+.about-info p {
   margin: 15px 10px;
   line-height: 1.5;
   font-size: 16px;
 }
-.app-info a {
+.app-info a,
+.about-info a {
   margin: 15px;
 }
 .apps {
   background-color: var(--secondary-color);
 }
-.btn-app-custom {
+.btn-branding {
   background-color: var(--branding-color-transparent);
   border: 1px solid var(--branding-color);
   font-family: var(--heading-font-family);
@@ -125,8 +131,11 @@ h4 {
   font-weight: 600;
   padding: 10px 20px;
 }
-.btn-app-custom:hover {
+.btn-branding:hover {
   background-color: var(--secondary-color-transparent);
   border: 1px solid var(--accent-color-orange-transparent);
   color: var(--accent-color-orange-transparent);
+}
+.profile-img {
+  max-width: 350px;
 }
