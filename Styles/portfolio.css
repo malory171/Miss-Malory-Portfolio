@@ -21,20 +21,23 @@
   .medium-text {
     font-size: 45px;
   }
-  .hero h3 {
+  h3,
+  h4 {
     font-size: 25px;
   }
   .app-info,
   .about-info {
     text-align: center;
-
     padding: 0 2px;
+  }
+  .profile-img {
+    max-width: 320px;
   }
 }
 
 @media (min-width: 992px) {
   .hero p {
-    font-size: 35px;
+    font-size: 50px;
   }
   .hero h1 {
     font-size: 85px;
@@ -42,18 +45,19 @@
   .medium-text {
     font-size: 68px;
   }
-  .hero h3 {
+  h3,
+  h4 {
     font-size: 35px;
   }
   .app-info,
   .about-info {
-    padding: 0 40px;
+    margin-top: 20px;
   }
   .text-left {
     text-align: right;
   }
   .profile-img {
-    margin-left: 50px;
+    max-width: 400px;
   }
 }
 body {
@@ -72,7 +76,6 @@ body {
 }
 h1,
 h2,
-h3,
 h4 {
   font-family: var(--heading-font-family);
   font-weight: 600;
@@ -88,6 +91,9 @@ h1 {
 }
 .hero h3 {
   background-color: var(--secondary-color-transparent);
+  font-family: var(--default-font-family);
+}
+.my-work h3 {
   font-family: var(--default-font-family);
 }
 .btn-hero {
@@ -106,6 +112,9 @@ h1 {
 .app-img {
   padding: 0px 30px;
 }
+.work-info .app-img {
+  max-width: 360px;
+}
 .app-info h2,
 .about-info h1 {
   margin: 15px;
@@ -114,7 +123,7 @@ h1 {
 .about-info p {
   margin: 15px 10px;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 18px;
 }
 .app-info a,
 .about-info a {
@@ -135,7 +144,4 @@ h1 {
   background-color: var(--secondary-color-transparent);
   border: 1px solid var(--accent-color-orange-transparent);
   color: var(--accent-color-orange-transparent);
-}
-.profile-img {
-  max-width: 350px;
 }
