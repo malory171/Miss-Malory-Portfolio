@@ -93,9 +93,6 @@ h1 {
   background-color: var(--secondary-color-transparent);
   font-family: var(--default-font-family);
 }
-.my-work h3 {
-  font-family: var(--default-font-family);
-}
 .btn-hero {
   background-color: var(--secondary-color-transparent);
   border: 1.2px solid black;
@@ -109,11 +106,8 @@ h1 {
   border: 1.2px solid var(--accent-color-orange-transparent);
   color: var(--accent-color-orange-transparent);
 }
-.app-img {
-  padding: 0px 30px;
-}
 .work-info .app-img {
-  max-width: 360px;
+  max-width: 330px;
 }
 .app-info h2,
 .about-info h1 {
@@ -144,4 +138,27 @@ h1 {
   background-color: var(--secondary-color-transparent);
   border: 1px solid var(--accent-color-orange-transparent);
   color: var(--accent-color-orange-transparent);
+}
+.social-link {
+  color: var(--branding-color);
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+
+  text-decoration: none;
+}
+.social-link:hover {
+  color: var(--accent-color-orange);
+  text-decoration: underline;
+}
+.larger-icon {
+  font-size: 28px;
+}
+.icon-color {
+  color: var(--branding-color);
+}
+i:hover {
+  color: var(--accent-color-orange);
+}
+.shecodes-logo {
+  max-height: 16px;
 }
