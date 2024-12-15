@@ -28,6 +28,37 @@
     <title>Document</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-sm p-1 fixed-top">
+      <div class="container-fluid">
+        <img
+          src="images/miss_malory_logo.png"
+          alt="Miss Malory logo"
+          class="navbar-logo"
+          title="Brand Logo"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active-link" aria-current="page" href="/"
+              >Home</a
+            >
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/work.html">Work</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="hero pt-5">
       <p class="text-center">Hi, I am</p>
       <h1 class="text-center">
@@ -36,8 +67,8 @@
       <h3 class="text-center">
         Front-end developer, based in the United Kingdom
       </h3>
-      <div class="d-flex justify-content-center p-5">
-        <a href="#" class="btn btn-hero">Contact me</a>
+      <div class="d-flex justify-content-center p-4">
+        <a href="#" class="btn btn-hero">Let's get in touch!</a>
       </div>
     </div>
     <div class="apps">
@@ -139,18 +170,9 @@
         >
       </p>
     </div>
-    <a class="btn btn-branding shadow" href="/about.html" title=""
-      >About me temporary</a
-    >
-    <a class="btn btn-branding shadow" href="/work.html" title=""
-      >Work temporary</a
-    >
-    <a class="btn btn-branding shadow" href="/contact.html" title=""
-      >Contact temporary</a
-    >
     <i class="fa-regular fa-envelope icon-color larger-icon"></i>
     <i class="fa-brands fa-linkedin icon-color larger-icon"></i>
     <i class="fa-brands fa-github icon-color larger-icon"></i>
-    <i class="fa-brands fa-instagram icon-color larger-icon"></i>
+    <i class="d-none fa-brands fa-instagram icon-color larger-icon"></i>
   </body>
 </html>

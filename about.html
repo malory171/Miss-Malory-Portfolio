@@ -28,7 +28,36 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container about-info mt-5">
+    <nav class="navbar navbar-expand-sm p-1 fixed-top">
+      <div class="container-fluid">
+        <img
+          src="images/miss_malory_logo.png"
+          alt="Miss Malory logo"
+          class="navbar-logo"
+          title="Brand Logo"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+            <a class="nav-link active-link" href="/about.html">About</a>
+            <a class="nav-link" href="/work.html">Work</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container about-info">
       <div class="row">
         <div class="col-lg-6">
           <h1>Hi, I am Malory Mézierre</h1>
@@ -44,11 +73,11 @@
             where I can continue to develop my skills and make a positive
             impact.
           </p>
-          <a class="btn btn-branding mb-4" href="/" title=""
-            >Back to Homepage temporary</a
+          <a class="btn btn-branding mb-3 shadow" href="/contact.html" title=""
+            >Let's get in touch!</a
           >
         </div>
-        <div class="col-lg-6 mt-2 mb-5 text-center">
+        <div class="col-lg-6 mt-3 mb-5 text-center">
           <img src="/images/profile.png" class="img-fluid profile-img" />
         </div>
       </div>

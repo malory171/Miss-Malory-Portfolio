@@ -37,7 +37,7 @@
 
 @media (min-width: 992px) {
   .hero p {
-    font-size: 50px;
+    font-size: 40px;
   }
   .hero h1 {
     font-size: 85px;
@@ -63,6 +63,19 @@
 body {
   font-family: var(--default-font-family);
 }
+nav {
+  background: #efefef;
+}
+.navbar-logo {
+  max-width: 60px;
+}
+.nav-link:hover {
+  color: var(--accent-color-orange);
+}
+.active-link {
+  color: var(--branding-color);
+  font-weight: 600;
+}
 .hero {
   background-image: url(/images/coding-octopus-background.jpg);
   background-repeat: no-repeat;
@@ -73,6 +86,7 @@ body {
 .hero p {
   background-color: var(--secondary-color-transparent);
   font-weight: 600;
+  margin-top: 50px;
 }
 h1,
 h2,
@@ -102,9 +116,13 @@ h1 {
   padding: 10px 20px;
 }
 .btn-hero:hover {
-  background-color: var(--branding-color-transparent);
   border: 1.2px solid var(--accent-color-orange-transparent);
   color: var(--accent-color-orange-transparent);
+}
+.about-info,
+.work-info,
+.contact-info {
+  margin-top: 100px;
 }
 .work-info .app-img {
   max-width: 330px;
