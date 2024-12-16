@@ -43,7 +43,7 @@
     font-size: 85px;
   }
   .medium-text {
-    font-size: 68px;
+    font-size: 60px;
   }
   h3,
   h4 {
@@ -68,6 +68,9 @@ nav {
 }
 .navbar-logo {
   max-width: 60px;
+}
+.navbar-nav {
+  margin-left: 20px;
 }
 .nav-link:hover {
   color: var(--accent-color-orange);
