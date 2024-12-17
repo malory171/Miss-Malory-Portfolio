@@ -170,6 +170,9 @@ h1 {
   border: 1px solid var(--accent-color-orange-transparent);
   color: var(--accent-color-orange-transparent);
 }
+.bold-text {
+  font-weight: 600;
+}
 .social-link {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
