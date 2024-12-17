@@ -32,6 +32,7 @@
   }
   .profile-img {
     max-width: 320px;
+     margin: 5%;
   }
 }
 
@@ -49,15 +50,15 @@
   h4 {
     font-size: 35px;
   }
-  .app-info,
-  .about-info {
+  .app-info {
     margin-top: 20px;
   }
   .text-left {
     text-align: right;
   }
   .profile-img {
-    max-width: 400px;
+    max-width: 320px;
+    margin: 20px 60px 20px 0px;
   }
 }
 body {
@@ -70,7 +71,7 @@ nav {
   max-width: 60px;
 }
 .navbar-nav {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .nav-link:hover {
   color: var(--accent-color-orange);
@@ -122,21 +123,30 @@ h1 {
   border: 1.2px solid var(--accent-color-orange-transparent);
   color: var(--accent-color-orange-transparent);
 }
-.about-info,
+.about-info {
+  margin-top: 80px;
+}
 .work-info,
 .contact-info {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 .work-info .app-img {
   max-width: 330px;
 }
-.app-info h2,
-.about-info h1 {
+.app-info h2 {
   margin: 15px;
 }
-.app-info p,
-.about-info p {
+.about-info h1 {
+  margin: 15px 40px;
+}
+.app-info p {
   margin: 15px 10px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.about-info p,
+.contact-info p {
+  margin: 15px 30px;
   line-height: 1.5;
   font-size: 18px;
 }
@@ -164,8 +174,8 @@ h1 {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
   font-size: 20px;
-
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
 .social-link:hover {
   color: var(--accent-color-orange);
@@ -174,12 +184,24 @@ h1 {
 .larger-icon {
   font-size: 28px;
 }
-.icon-color {
-  color: var(--branding-color);
-}
-i:hover {
-  color: var(--accent-color-orange);
-}
 .shecodes-logo {
   max-height: 16px;
+}
+footer .contact-box{
+  background: #efefef;
+  margin: 0 3%;
+  padding: 25px; 
+}
+footer p {
+  font-size: 17px;
+}
+footer i {
+  transition: all 100ms ease-in-out;
+  margin: 40px 30px 30px 30px;
+}
+footer i:hover {
+  color: var(--accent-color-orange-transparent);
+}
+.icon-color {
+  color: var(--branding-color);
 }
