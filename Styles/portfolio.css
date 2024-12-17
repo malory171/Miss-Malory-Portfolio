@@ -32,7 +32,7 @@
   }
   .profile-img {
     max-width: 320px;
-     margin: 5%;
+    margin: 5%;
   }
 }
 
@@ -187,10 +187,10 @@ h1 {
 .shecodes-logo {
   max-height: 16px;
 }
-footer .contact-box{
+footer .contact-box {
   background: #efefef;
   margin: 0 3%;
-  padding: 25px; 
+  padding: 25px;
 }
 footer p {
   font-size: 17px;
