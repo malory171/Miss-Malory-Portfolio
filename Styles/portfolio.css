@@ -81,14 +81,17 @@ nav {
   font-weight: 600;
 }
 .hero {
-  background-image: url(/images/coding-octopus-background.jpg);
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url(/images/coding-octopus-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
 }
 .hero p {
-  background-color: var(--secondary-color-transparent);
   font-weight: 600;
   margin-top: 50px;
 }
@@ -103,13 +106,12 @@ h1 {
   font-size: 35px;
 }
 .hero h1 {
-  background-color: var(--secondary-color-transparent);
   font-weight: 500;
   margin: 30px 0;
 }
 .hero h3 {
-  background-color: var(--secondary-color-transparent);
   font-family: var(--default-font-family);
+  font-weight: 600;
 }
 .btn-hero {
   background-color: var(--secondary-color-transparent);
